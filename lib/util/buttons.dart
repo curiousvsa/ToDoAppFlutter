@@ -10,7 +10,7 @@ class CustomButtoms extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialButton(
       onPressed: onPressed,
-      color:  Color.fromARGB(100, 238, 159, 253),
+      color:  const Color.fromARGB(100, 238, 159, 253),
       child: Text(text),
     );
   }
